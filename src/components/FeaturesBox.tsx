@@ -5,18 +5,18 @@ const FeaturesBox = () => {
   const features = [
     {
       icon: <Monitor size={28} className="text-white" />,
-      title: "Learn The Latest Skills",
-      description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old."
+      title: "Master New Topics Using Latest Technologies",
+      description: "Stay ahead of the curve with the latest tools and techniques in interactive learning and practical applications."
     },
     {
       icon: <Briefcase size={28} className="text-white" />,
-      title: "Get Ready For a Career",
-      description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old."
+      title: "Prepare for Your Future Career",
+      description: "Gain the skills and knowledge that employers value through immersive, hands-on experiences in your field of interest."
     },
     {
       icon: <Award size={28} className="text-white" />,
-      title: "Earn a Certificate",
-      description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old."
+      title: "Earn Industry-Recognized Certifications",
+      description: "Showcase your expertise and unlock career opportunities with activities that validate your skills and achievements."
     }
   ];
 

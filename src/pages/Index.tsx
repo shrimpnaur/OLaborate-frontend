@@ -28,7 +28,7 @@ const Index = () => {
   useEffect(() => {
     if (!loading) {
       toast({
-        title: "Welcome to O-Labs",
+        title: "Welcome to O-Laborate",
         description: "Explore our courses and start your learning journey today.",
       });
     }

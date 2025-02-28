@@ -113,7 +113,7 @@ const Tracks = () => {
                 className="absolute -top-6 -right-8 w-12 h-12 animate-float"
               />
             </h2>
-            <p className="text-gray-600 mt-1">Lorem ipsum is simply dummy text of the printing.</p>
+            <p className="text-gray-600 mt-1">To our students who are finding their way through their topics</p>
           </div>
           <div className="flex gap-2">
             <button 

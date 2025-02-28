@@ -75,7 +75,7 @@ const CourseCard = ({
       <div className="p-4">
         <div className="flex justify-between items-center mb-2">
           <div className="flex">{renderStars()}</div>
-          <span className="text-olabs-orange font-bold">${price}</span>
+          <span className="text-olabs-orange font-bold"></span>
         </div>
         
         <h3 className="font-semibold text-lg mb-3">{title}</h3>
@@ -96,7 +96,7 @@ const CourseCard = ({
         </div>
         
         <Button className="w-full bg-olabs-orange hover:bg-orange-600 button-hover">
-          Join Course
+          Start Course
         </Button>
       </div>
     </div>

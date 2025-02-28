@@ -22,9 +22,8 @@ const Hero = () => {
               Choice For <span className="text-olabs-orange">Future</span>
             </h1>
             <p className="text-gray-600 mb-6 max-w-md">
-              O-Labs is a global training provider based across the UK that
-              specializes in accredited and bespoke training courses. We crush
-              the...
+            OLabs is a leading global provider of innovative training solutions, 
+            offering accredited and tailored courses that empower individuals and organizations to excel in their fields.
             </p>
 
             <form onSubmit={handleSearch} className="flex mb-8">

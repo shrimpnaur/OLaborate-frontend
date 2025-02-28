@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-olabs-purple rounded-md flex items-center justify-center">
                 <span className="text-white font-bold text-xl">O</span>
               </div>
-              <span className="font-bold text-lg">O-Labs</span>
+              <span className="font-bold text-lg">O-Laborative</span>
             </Link>
             <p className="text-gray-600 text-sm mb-4">
               Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -57,7 +57,7 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-600">
               <li className="flex items-start gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-olabs-purple shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                <span>123 Innovation Street, Tech City, CA 98765</span>
+                <span>123 Scholar Street, Tech City, CA 98765</span>
               </li>
               <li className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-olabs-purple shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>

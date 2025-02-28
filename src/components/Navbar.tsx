@@ -39,7 +39,7 @@ const Navbar = () => {
             <div className="w-10 h-10 bg-olabs-purple rounded-md flex items-center justify-center">
               <span className="text-white font-bold text-xl">O</span>
             </div>
-            <span className="font-bold text-xl">O-Labs</span>
+            <span className="font-bold text-xl">O-Laborative</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -58,6 +58,9 @@ const Navbar = () => {
             </Link>
             <Link to="/contact" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               Contact us
+            </Link>
+            <Link to="/contact" className="text-sm font-medium hover:text-olabs-purple transition-colors">
+              White-Board
             </Link>
             <Button className="bg-olabs-purple hover:bg-olabs-light-purple button-hover">
               Sign in

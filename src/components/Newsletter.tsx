@@ -27,10 +27,10 @@ const Newsletter = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-            Subscribe to our newsletter
+            Subscribe to our content
           </h2>
           <p className="text-white/80 mb-6">
-            Lorem ipsum is simply dummy text of the printing.
+          "A hands-on experience that truly enhances our understanding."
           </p>
           
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
