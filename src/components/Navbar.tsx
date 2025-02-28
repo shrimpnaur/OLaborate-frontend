@@ -53,6 +53,12 @@ const Navbar = () => {
             <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               Courses
             </Link>
+            <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
+              AI-MCQs
+            </Link>
+            <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
+              Discussions
+            </Link>
             <Link to="/services" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               Our Service
             </Link>
