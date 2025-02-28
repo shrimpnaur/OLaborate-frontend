@@ -21,7 +21,7 @@ const FeaturesBox = () => {
   ];
 
   return (
-    <div className="w-full max-w-5xl mx-auto -mt-20 z-10 relative px-4">
+    <div className="w-full max-w-5xl mx-auto -mt-15.5 z-10 relative px-4">
       <div className="bg-olabs-purple rounded-xl shadow-lg grid grid-cols-1 md:grid-cols-3 overflow-hidden">
         {features.map((feature, index) => (
           <div 

@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -18,10 +17,7 @@ const Index = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-
+    const timer = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -73,7 +69,11 @@ const Index = () => {
   if (loading) {
     return (
       <div className="fixed inset-0 flex items-center justify-center bg-olabs-cream">
-        <div className="w-16 h-16 border-4 border-olabs-purple border-t-transparent rounded-full animate-spin"></div>
+        <div
+          className="w-16 h-16 border-4 border-olabs-purple border-t-transparent rounded-full animate-spin"
+          role="status"
+          aria-label="Loading..."
+        ></div>
       </div>
     );
   }
@@ -88,32 +88,33 @@ const Index = () => {
       <Toaster />
       <Hero />
       <FeaturesBox />
+      <Tracks /> 
 
-      <section className="py-16 bg-olabs-cream">
+      {/* Featured Courses Section */}
+      <section className="py-12 bg-olabs-cream">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <h2 className="text-3xl font-bold">Featured Courses</h2>
             <p className="text-gray-600 mt-1">Explore our most popular learning programs</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {featuredCourses.map((course, index) => (
-              <CourseCard
-                key={course.id}
-                {...course}
-              />
+            {featuredCourses.map((course) => (
+              <CourseCard key={course.id} {...course} />
             ))}
           </div>
 
-          <div className="text-center mt-10">
-            <button className="bg-transparent border-2 border-olabs-purple text-olabs-purple py-2 px-6 rounded-full hover:bg-olabs-purple hover:text-white transition-colors duration-300 font-medium">
+          <div className="text-center mt-8">
+            <button
+              className="bg-transparent border-2 border-olabs-purple text-olabs-purple py-2 px-6 rounded-full hover:bg-olabs-purple hover:text-white transition-colors duration-300 font-medium"
+              aria-label="View all courses"
+            >
               View All Courses
             </button>
           </div>
         </div>
       </section>
 
-      <Tracks />
       <PremiumExperience />
       <Testimonials />
       <Newsletter />

@@ -57,7 +57,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold">What Student's Say</h2>
-          <p className="text-gray-600 mt-1">From thousands who have benefited to the many who have contributed. </p>
+          <p className="text-gray-600 mt-1">From thousands who have benefited for the many who have contributed. </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
