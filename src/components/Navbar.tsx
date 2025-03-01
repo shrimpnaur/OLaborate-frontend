@@ -55,9 +55,6 @@ const Navbar = () => {
             <a href="https://mcqgenerator-olabs.streamlit.app/"  rel="noopener noreferrer" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               AI-MCQs
             </a>
-            <a href="https://ytsummarizer-olabs.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:text-olabs-purple transition-colors">
-              Summarizer
-            </a>
             <Link to="/services" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               Our Service
             </Link>
