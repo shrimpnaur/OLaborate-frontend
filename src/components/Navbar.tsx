@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className="w-10 h-10 bg-olabs-purple rounded-md flex items-center justify-center">
               <span className="text-white font-bold text-xl">O</span>
             </div>
-            <span className="font-bold text-xl">O-Laborative</span>
+            <span className="font-bold text-xl">O-Laborate</span>
           </Link>
 
           {/* Desktop Navigation */}

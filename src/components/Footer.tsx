@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-olabs-purple rounded-md flex items-center justify-center">
                 <span className="text-white font-bold text-xl">O</span>
               </div>
-              <span className="font-bold text-lg">O-Laborative</span>
+              <span className="font-bold text-lg">O-Laborate</span>
             </Link>
             <p className="text-gray-600 text-sm mb-4">
               Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
