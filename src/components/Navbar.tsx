@@ -53,12 +53,10 @@ const Navbar = () => {
             <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               Courses
             </Link>
-            <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
+            <a href="https://mcqgenerator-olabs.streamlit.app/"  rel="noopener noreferrer" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               AI-MCQs
-            </Link>
-            <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
-              Discussions
-            </Link>
+            </a>
+            
             <Link to="/services" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               Our Service
             </Link>
