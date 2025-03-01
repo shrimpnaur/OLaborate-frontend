@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -53,12 +52,12 @@ const Navbar = () => {
             <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               Courses
             </Link>
-            <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
+            <a href="https://mcqgenerator-olabs.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               AI-MCQs
-            </Link>
-            <Link to="/courses" className="text-sm font-medium hover:text-olabs-purple transition-colors">
-              Discussions
-            </Link>
+            </a>
+            <a href="https://ytsummarizer-olabs.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:text-olabs-purple transition-colors">
+              Summarizer
+            </a>
             <Link to="/services" className="text-sm font-medium hover:text-olabs-purple transition-colors">
               Our Service
             </Link>
@@ -108,6 +107,24 @@ const Navbar = () => {
               >
                 Courses
               </Link>
+              <a
+                href="https://mcqgenerator-olabs.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium hover:text-olabs-purple transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                AI-MCQs
+              </a>
+              <a
+                href="https://ytsummarizer-olabs.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium hover:text-olabs-purple transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Discussions
+              </a>
               <Link
                 to="/services"
                 className="text-sm font-medium hover:text-olabs-purple transition-colors"
